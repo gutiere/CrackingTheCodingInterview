@@ -89,7 +89,7 @@ public class TowersOfHanoi {
          * This method fills the tower 1 with N elements.
          */
         private void fillTower(int N) {
-            for (int i = 1; i <= N; i++) {
+            for (int i = N; i >= 1; i--) {
                 towers.get(0).push(i);
             }
         }
