@@ -17,6 +17,7 @@ import java.util.HashMap;
 import java.lang.String;
 
 public class WordFrequencies {
+    
     public static void main(String[] theArgs) {
         System.out.println(calculateFrequencies("Hello there, there lol"));
     }
